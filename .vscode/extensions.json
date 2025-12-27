@@ -33,6 +33,9 @@
     "mpontus.tab-cycle",
     "naumovs.color-highlight",
     "WakaTime.vscode-wakatime",
-    "znck.grammarly"
+    "znck.grammarly",
+
+    // new
+    "anweber.reveal-button"
   ]
 }

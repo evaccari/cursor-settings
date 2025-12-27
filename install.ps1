@@ -30,7 +30,7 @@ function Install-Extensions {
 
     $output = cursor --install-extension $extension --force 2>&1 | Out-String
 
-    if ($output -match "was successfully installed") {
+    if (!($output -match "is already installed")) {
       Write-Host $output
     }
   }

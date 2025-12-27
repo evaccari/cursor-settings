@@ -14,7 +14,7 @@
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
   "workbench.preferredLightColorTheme": "Vitesse Light",
   "workbench.productIconTheme": "icons-carbon",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
@@ -48,6 +48,7 @@
   "scm.diffDecorationsGutterWidth": 2,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.tabs.enabled": true,
@@ -80,6 +81,9 @@
     "**/CHANGELOG*": true,
     "**/LICENSE*": true,
   },
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
 
   // ==========  Global Level Config, needs to put in User Settings ========== 
   "window.dialogStyle": "custom",
@@ -140,6 +144,9 @@
   },
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
+  "cSpell.words": [
+    "xcopy"
+  ],
   "css.lint.hexColorLength": "ignore",
   "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
   "githubPullRequests.fileListLayout": "tree",

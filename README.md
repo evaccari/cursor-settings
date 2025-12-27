@@ -1,12 +1,14 @@
-<samp><b>Anthony's VS Code Settings</b></samp>
+# <samp><b>VS Code / Cursor Settings</b></samp>
 
-[`.vscode/settings.json`](./.vscode/settings.json)<br>
-[`.vscode/extensions.json`](./.vscode/extensions.json)<br>
-[`.vscode/global.code-snippets`](./.vscode/global.code-snippets)
+Personalized configuration for VS Code / Cursor with theme, recommended extensions, and code snippets.
 
-<br>
-<br>
-<p align="center"><samp>Preview</samp></p>
+## Contents
+
+- [`.vscode/settings.json`](./.vscode/settings.json) - Editor settings
+- [`.vscode/extensions.json`](./.vscode/extensions.json) - Recommended extensions
+- [`.vscode/global.code-snippets`](./.vscode/global.code-snippets) - Global code snippets
+
+## Preview
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/11247099/110247185-ed26b380-7fa5-11eb-8fce-6c224bb6ef26.png">
@@ -17,7 +19,22 @@
 Product Icons | <a href="https://github.com/antfu/vscode-icons-carbon">Carbon</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
 </p>
 
-<br>
+## Installation
+
+### Automatic Installation (Cursor)
+
+The `install.ps1` PowerShell script automatically installs everything:
+
+```powershell
+.\install.ps1
+```
+
+The script will:
+- Install all recommended extensions from `.vscode/extensions.json`
+- Copy `settings.json` to `%APPDATA%\Cursor\User\settings.json`
+- Copy `global.code-snippets` to `%APPDATA%\Cursor\User\snippets\global.code-snippets`
+
+**Note**: The script requires PowerShell and the `cursor` CLI command to be available in your PATH.
 
 ## LICENSE
 

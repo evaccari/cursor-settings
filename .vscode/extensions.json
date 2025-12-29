@@ -36,6 +36,7 @@
     "znck.grammarly",
 
     // new
-    "anweber.reveal-button"
+    "anweber.reveal-button",
+    "antfu.pnpm-catalog-lens"
   ]
 }

@@ -18,24 +18,3 @@ Personalized configuration for VS Code / Cursor with theme, recommended extensio
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File Icons | <a href="https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons">Catppuccin Icons</a><br>
 Product Icons | <a href="https://github.com/antfu/vscode-icons-carbon">Carbon</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
 </p>
-
-## Installation
-
-### Automatic Installation (Cursor)
-
-The `install.ps1` PowerShell script automatically installs everything:
-
-```powershell
-.\install.ps1
-```
-
-The script will:
-- Install all recommended extensions from `.vscode/extensions.json`
-- Copy `settings.json` to `%APPDATA%\Cursor\User\settings.json`
-- Copy `global.code-snippets` to `%APPDATA%\Cursor\User\snippets\global.code-snippets`
-
-**Note**: The script requires PowerShell and the `cursor` CLI command to be available in your PATH.
-
-## LICENSE
-
-MIT
